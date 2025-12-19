@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gracieux’s Massage Therapy – Relax, Restore, Rebalance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional therapeutic massage in YOUR-CITY. Swedish, deep-tissue, hot-stone, prenatal. Licensed & insured. Book online 24/7.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary:#7a5c8d;
+      --primary-light:#a385b8;
+      --accent:#f6f2f9;
+      --text:#333;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Poppins',sans-serif;color:var(--text)}
+    body{line-height:1.6;background:#fff}
+    img{max-width:100%;display:block}
+    header{background:var(--primary);color:#fff;padding:1.2rem 1rem;text-align:center}
+    header h1{font-weight:700;font-size:2rem}
+    header p{font-size:1.1rem;margin-top:.3rem}
+    nav{display:flex;justify-content:center;gap:1.5rem;margin-top:1rem}
+    nav a{color:#fff;text-decoration:none;font-weight:500}
+    .btn{background:var(--primary-light);color:#fff;padding:.75rem 1.5rem;border:none;border-radius:4px;font-size:1rem;cursor:pointer;text-decoration:none;display:inline-block;transition:.3s}
+    .btn:hover{background:var(--primary)}
+    section{padding:3rem 1rem;max-width:1000px;margin:auto}
+    .hero{text-align:center;background:var(--accent)}
+    .hero h2{font-size:2.2rem;margin-bottom:1rem}
+    .services{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+    .service{background:#fff;border:1px solid #ddd;padding:1.5rem;border-radius:6px;text-align:center}
+    .about{display:flex;flex-wrap:wrap;align-items:center;gap:2rem}
+    .about div{flex:1 1 300px}
+    .about img{flex:1 1 250px;border-radius:6px}
+    footer{background:var(--primary);color:#fff;text-align:center;padding:2rem 1rem;font-size:.9rem}
+    form{display:grid;gap:1rem;max-width:500px;margin:auto}
+    input,textarea,select{width:100%;padding:.7rem;border:1px solid #ccc;border-radius:4px}
+    label{font-weight:500}
+    @media(max-width:600px){nav{flex-direction:column;gap:.5rem}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Gracieux’s Massage Therapy</h1>
+  <p>Relax, Restore, Rebalance</p>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#book" class="btn">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Feel Better in One Session—Guaranteed</h2>
+  <p>Licensed massage therapist specializing in pain relief, stress reduction and prenatal care.<br>
+     Convenient online booking, peaceful YOUR-CITY studio, insurance receipts available.</p>
+  <a class="btn" href="#book">Schedule Appointment</a>
+</section>
+
+<section id="services">
+  <h2 style="text-align:center;margin-bottom:2rem">Services & Pricing</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Swedish Relaxation</h3>
+      <p>Long flowing strokes to calm the nervous system and improve circulation.</p>
+      <p><strong>60 min – $80 | 90 min – $110</strong></p>
+    </div>
+    <div class="service">
+      <h3>Deep-Tissue & Trigger Point</h3>
+      <p>Focused pressure to release chronic tension and adhesions.</p>
+      <p><strong>60 min – $90 | 90 min – $125</strong></p>
+    </div>
+    <div class="service">
+      <h3>Hot-Stone Therapy</h3>
+      <p>Warm basalt stones melt away muscle stiffness and stress.</p>
+      <p><strong>75 min – $120</strong></p>
+    </div>
+    <div class="service">
+      <h3>Prenatal Massage</h3>
+      <p>Side-lying comfort for mom & baby. Doctor-approved after 1st trimester.</p>
+      <p><strong>60 min – $85 | 90 min – $115</strong></p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div>
+    <h2>Hi, I’m Gracieux</h2>
+    <p>I’m a licensed massage therapist (License #YOUR-LICENCE) with 7+ years of experience helping clients reduce pain, improve mobility and sleep better. My approach blends clinical knowledge with intuitive touch—every session is tailored to what <em>your</em> body needs that day.</p>
+    <ul style="margin:1rem 0 0 1.2rem">
+      <li>Graduate of SCHOOL-NAME, 600-hr program</li>
+      <li>Member of Associated Massage & Bodywork Professionals</li>
+      <li>Continuing education in myofascial release & prenatal care</li>
+    </ul>
+  </div>
+  <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=800&q=60" alt="Massage treatment room">
+</section>
+
+<section id="contact">
+  <h2 style="text-align:center;margin-bottom:1.5rem">Location & Hours</h2>
+  <p style="text-align:center">
+    📍 123 Wellness Lane, YOUR-CITY, ST 12345<br>
+    📞 <a href="tel:+1234567890">(123) 456-7890</a><br>
+    ✉️ <a href="mailto:gracieux@example.com">gracieux@example.com</a>
+  </p>
+  <p style="text-align:center;margin-top:1rem"><strong>Mon–Fri 9 am–8 pm | Sat 9 am–6 pm | Sun closed</strong></p>
+  <!-- Google Map embed -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987368715491!3d40.697670064237676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQxJzUxLjYiTiA3NMKwMTUnMzUuNCJX!5e0!3m2!1sen!2sus!4v1650000000000" width="100%" height="300" style="border:0;margin-top:1.5rem" allowfullscreen loading="lazy"></iframe>
+</section>
+
+<section id="book">
+  <h2 style="text-align:center;margin-bottom:1.5rem">Book an Appointment</h2>
+  <!-- Swap this form for your scheduler’s embed when ready -->
+  <form action="https://formspree.io/f/YOUR-FORMSPREE-ID" method="POST">
+    <label>Name *</label>
+    <input type="text" name="name" required>
+    <label>Email *</label>
+    <input type="email" name="email" required>
+    <label>Phone</label>
+    <input type="tel" name="phone">
+    <label>Preferred date & time</label>
+    <input type="datetime-local" name="date">
+    <label>Service</label>
+    <select name="service">
+      <option>Swedish 60 min</option>
+      <option>Swedish 90 min</option>
+      <option>Deep-Tissue 60 min</option>
+      <option>Deep-Tissue 90 min</option>
+      <option>Hot-Stone 75 min</option>
+      <option>Prenatal 60 min</option>
+      <option>Prenatal 90 min</option>
+    </select>
+    <label>Notes / areas of concern</label>
+    <textarea name="notes" rows="4"></textarea>
+    <button type="submit" class="btn">Send Request</button>
+  </form>
+  <p style="text-align:center;margin-top:1rem;font-size:.9rem">Prefer instant booking? <a href="https://calendly.com/YOUR-CALENDLY" target="_blank">Click here to use Calendly</a>.</p>
+</section>
+
+<footer>
+  © <span id="yr"></span> Gracieux’s Massage Therapy. All rights reserved.
+  <br><a href="#" style="color:#fff">Privacy Policy</a> | <a href="#" style="color:#fff">COVID-19 Safety</a>
+</footer>
+
+<script>
+  // dynamic year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  // smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'})
+    })
+  })
+</script>
+
+</body>
+</html>
